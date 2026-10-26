@@ -1640,6 +1640,7 @@ const sidebars = {
           "providers/minimax",
           "providers/moonshot",
           "providers/morph",
+          "providers/nace",
           "providers/nadir",
           "providers/nano-gpt",
           "providers/nebius",

@@ -49,6 +49,7 @@ Decision routes are available in LiteLLM `v1.104.2` and later, except the `v1.10
 | vLLM, Microsoft Foundry, OpenRouter spend from `usage.cost` | `v1.104.3` |
 | Databricks serving endpoints, image input on Cloudflare Clef, TypeSafe images and box questions | `v1.106.0` |
 | Databricks `ai_decide`, Fireworks AI, Laya and Bespoke Nimble, including the Add Model form | `v1.107.0-rc.1` |
+| Nace Drex | A build containing [BerriAI/litellm#46523](https://github.com/BerriAI/litellm/pull/46523). Image input on `drex-max` and `provider: nace` for the Auto Router need [BerriAI/litellm#48426](https://github.com/BerriAI/litellm/pull/48426) |
 
 | Feature | Supported | Notes |
 |---------|-----------|-------|
@@ -56,7 +57,7 @@ Decision routes are available in LiteLLM `v1.104.2` and later, except the `v1.10
 | Logging | Yes | Works across all integrations |
 | Virtual keys, budgets, rate limits | Yes | Normal proxy key auth |
 | Load balancing, fallbacks | Yes | Goes through the router like `/chat/completions` |
-| Image input | OpenAI, Cloudflare Clef and TypeSafe | TypeSafe needs the `TypeSafe-Danger-Zone-Images: true` header. Other providers return a 400, or drop the images under `drop_params` |
+| Image input | OpenAI, Cloudflare Clef, Nace Drex Max and TypeSafe | TypeSafe needs the `TypeSafe-Danger-Zone-Images: true` header. Other providers return a 400, or drop the images under `drop_params` |
 | Streaming | No | |
 
 ## Limits
