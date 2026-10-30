@@ -49,7 +49,7 @@ Decision routes are available in LiteLLM `v1.104.2` and later, except the `v1.10
 | vLLM, Microsoft Foundry, OpenRouter spend from `usage.cost` | `v1.104.3` |
 | Databricks serving endpoints, image input on Cloudflare Clef, TypeSafe images and box questions | `v1.106.0` |
 | Databricks `ai_decide`, Fireworks AI, Laya and Bespoke Nimble, including the Add Model form | `v1.107.0-rc.1` |
-| Nace Drex | A build containing [BerriAI/litellm#46523](https://github.com/BerriAI/litellm/pull/46523). Image input on `drex-max` and `provider: nace` for the Auto Router need [BerriAI/litellm#48426](https://github.com/BerriAI/litellm/pull/48426) |
+| Nace Drex | A build containing [BerriAI/litellm#46523](https://github.com/BerriAI/litellm/pull/46523). Image input on `drex-max` and `drex-max-v1.1`, and `provider: nace` for the Auto Router need [BerriAI/litellm#48426](https://github.com/BerriAI/litellm/pull/48426) |
 
 | Feature | Supported | Notes |
 |---------|-----------|-------|
